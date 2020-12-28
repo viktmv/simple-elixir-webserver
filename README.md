@@ -1,8 +1,6 @@
-# Elixir template for Silo
+# Simple Elixir Webserver
 
-Quick-starter for elixir projects with `cowboy` as a simple web-server  
-
-Please rename `ElixirApp` in the code (and Dockerfile) to your own app name when getting started. Pretty much search & replace `elixir_app` and `ElixirApp`  
+Quick-starter for elixir projects with `plug_cowboy` as a simple web-server  
 
 To run in docker: 
 ```
@@ -15,4 +13,4 @@ mix deps.get
 mix test
 ```
 
-
+Please rename `ElixirApp` in the code (and Dockerfile) to your own app name if building your own app on top. Pretty much search & replace `elixir_app` and `ElixirApp`  
